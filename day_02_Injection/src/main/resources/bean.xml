@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="teacherService" class="com.xzit.injection.TeacherService">
+        <property name="name" value="张老师"></property>
+        <property name="age" value="23"></property>
+    </bean>
+    <bean id="teacherService1" class="com.xzit.injection.TeacherService">
+        <property name="name" value="李老师"></property>
+        <property name="age" value="34"></property>
+        <property name="addrs">
+            <list>
+                <value>北京</value>
+                <value>南京</value>
+                <value>天津</value>
+                <value>上海</value>
+            </list>
+        </property>
+    </bean>
+</beans>
