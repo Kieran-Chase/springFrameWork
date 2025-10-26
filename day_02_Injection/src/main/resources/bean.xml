@@ -18,5 +18,49 @@
                 <value>上海</value>
             </list>
         </property>
+        <property name="set">
+            <set>
+                <value>AAA</value>
+                <value>BBB</value>
+                <value>CCC</value>
+            </set>
+        </property>
+        <property name="teachers">
+            <set>
+                <bean class="com.xzit.injection.Teacher">
+                    <property name="name" value="张老师"></property>
+                    <property name="age" value="26"></property>
+                </bean>
+                <bean class="com.xzit.injection.Teacher">
+                    <property name="name" value="李老师"></property>
+                    <property name="age" value="23"></property>
+                </bean>
+                <bean class="com.xzit.injection.Teacher">
+                    <property name="name" value="刘老师"></property>
+                    <property name="age" value="25"></property>
+                </bean>
+            </set>
+        </property>
+        <property name="list">
+            <list>
+                <value>TTT</value>
+                <value>TTT</value>
+                <value>TTT</value>
+            </list>
+        </property>
+        <property name="map">
+            <map>
+                <entry key="语文" value="80.5"></entry>
+                <entry key="数学" value="84.9"></entry>
+                <entry key="外语" value="87.5"></entry>
+            </map>
+        </property>
+        <property name="dao" ref="dao"></property>
+        <property name="properties">
+            <props>
+                <prop key="aaa">vvvvv</prop>
+            </props>
+        </property>
     </bean>
+    <bean id="dao" class="com.xzit.injection.TeacherDaoImpl"></bean>
 </beans>

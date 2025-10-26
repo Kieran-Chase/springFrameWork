@@ -13,6 +13,7 @@ public class TeacherService {
     private int age;
     private String[] addrs;
     private Set<String> set;
+    private Set<Teacher> teachers;
     private List<String> list;
     private Map<String,Double> map;
     private Properties properties;
@@ -81,6 +82,14 @@ public class TeacherService {
         this.properties = properties;
     }
 
+    public Set<Teacher> getTeachers() {
+        return teachers;
+    }
+
+    public void setTeachers(Set<Teacher> teachers) {
+        this.teachers = teachers;
+    }
+
     @Override
     public String toString() {
         return "TeacherService{" +
@@ -89,6 +98,7 @@ public class TeacherService {
                 ", age=" + age +
                 ", addrs=" + Arrays.toString(addrs) +
                 ", set=" + set +
+                ", teachers=" + teachers +
                 ", list=" + list +
                 ", map=" + map +
                 ", properties=" + properties +
