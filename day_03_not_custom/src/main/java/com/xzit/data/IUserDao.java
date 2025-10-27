@@ -1,0 +1,10 @@
+package com.xzit.data;
+
+/**
+ * @author Kieran_Chase
+ * @project springFrameWork
+ * @date 2025/10/27
+ */
+public interface IUserDao {
+    public void save();
+}
