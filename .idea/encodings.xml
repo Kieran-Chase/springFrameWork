@@ -7,6 +7,12 @@
     <file url="file://$PROJECT_DIR$/day_01_spring/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/day_02_Injection/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/day_02_Injection/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day_02_auto/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day_02_auto/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day_03_annotationDi/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day_03_annotationDi/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day_03_autowired/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day_03_autowired/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>
