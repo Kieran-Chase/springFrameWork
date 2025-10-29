@@ -17,6 +17,7 @@
     <module>day_03_annotationDi</module>
     <module>day_03_not_custom</module>
       <module>day_04_complex_obj</module>
+      <module>day_04__Converter</module>
   </modules>
 
   <properties>

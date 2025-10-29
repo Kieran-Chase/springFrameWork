@@ -14,7 +14,7 @@ public class MyConnectionFactoryBean implements MyFactoryBean<Connection> {
         Class.forName("com.mysql.cj.jdbc.Driver");
         String url="jdbc:mysql://localhost:3306/mybatis?serverTimezone=GMT%2B8&useSSL=false";
         String user="root";
-        String password="root";
+        String password="15193651772Aa!";
         Connection connection= DriverManager.getConnection(url,user,password);
         return connection;
     }
