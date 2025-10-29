@@ -16,6 +16,7 @@
     <module>day_02_auto</module>
     <module>day_03_annotationDi</module>
     <module>day_03_not_custom</module>
+      <module>day_04_complex_obj</module>
   </modules>
 
   <properties>

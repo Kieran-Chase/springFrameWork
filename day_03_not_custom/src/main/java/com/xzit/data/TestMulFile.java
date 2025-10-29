@@ -14,6 +14,5 @@ public class TestMulFile {
                 ClassPathXmlApplicationContext("applicationContext_main.xml");
         UserService service=context.getBean(UserService.class);
         service.saveUser();
-
     }
 }
