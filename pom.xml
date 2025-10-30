@@ -19,6 +19,7 @@
       <module>day_04_complex_obj</module>
       <module>day_04__Converter</module>
       <module>day_04_aop</module>
+    <module>day_05_aop_proxy</module>
   </modules>
 
   <properties>
