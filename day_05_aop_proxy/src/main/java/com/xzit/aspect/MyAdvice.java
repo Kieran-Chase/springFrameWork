@@ -77,10 +77,23 @@ public class MyAdvice {
     public void transaction(ProceedingJoinPoint point){
         System.out.println("开启事务");
         try {
-            point.proceed();//调用目标方法
+            Object[] args=point.getArgs();
+            String acc=null;
+            if(args!=null){
+                acc=(String)args[0];
+            }
+            if(acc.equals("123456"))
+                point.proceed();//调用目标方法
+            else
+                System.out.println("账户不存在");
         } catch (Throwable e) {
             throw new RuntimeException(e);
         }
         System.out.println("提交事务");
+    }
+
+    @AfterThrowing(value="execution(* showMenu(..))")
+    public void catchException(){
+        System.out.println("出现了异常");
     }
 }

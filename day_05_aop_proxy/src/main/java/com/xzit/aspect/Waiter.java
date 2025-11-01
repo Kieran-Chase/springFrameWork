@@ -12,7 +12,7 @@ public class Waiter {
     public void showMenu(){
         System.out.println("请点菜");
     }
-    public void pay(){
+    public void pay(String acc){
         System.out.println("请付款");
     }
 

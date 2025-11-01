@@ -12,8 +12,8 @@ public class TestAOP {
     public static void main(String[] args) {
         ApplicationContext context=new ClassPathXmlApplicationContext("bean.xml");
         Waiter waiter=context.getBean(Waiter.class);
-        /*waiter.showMenu();
-        System.out.println("++++++++++++++++++++++++++++++++++");*/
-        waiter.pay();
+        waiter.showMenu();
+        System.out.println("++++++++++++++++++++++++++++++++++");
+        //waiter.pay("123456");
     }
 }
