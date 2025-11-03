@@ -20,6 +20,8 @@
       <module>day_04__Converter</module>
       <module>day_04_aop</module>
     <module>day_05_aop_proxy</module>
+      <module>day_06_spring_mybatis</module>
+      <module>day_07_transaction</module>
   </modules>
 
   <properties>
